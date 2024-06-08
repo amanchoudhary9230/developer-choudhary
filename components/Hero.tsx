@@ -1,4 +1,5 @@
 "use client";
+/* eslint-disable */
 import React from "react";
 import { Spotlight } from "./ui/Spotlight";
 import ShimmerBtn from "./ui/ShimmerBtn";
@@ -32,7 +33,7 @@ const Hero = () => {
           </h2>
           <h1 className="text-center md:text-[35px] text-[30px] my-4">
             <span className="dark:text-white text-black font-bold">
-              Hey, I'm{" "}
+              Hey, I&apos;m{" "}
               <span className="text-[#eddcd2] bg-gradient-to-b from-[#005f73] to-[#8d99ae] text-transparent bg-clip-text">
                 Aman Choudhary
               </span>
