@@ -6,7 +6,7 @@ import { companies, testimonials } from "../data";
 
 const Clients = () => {
   return (
-    <div id="clients" className="sm:py-20 py-10">
+    <div id="clients">
       <h1 className="heading">
         Kind words from{" "}
         <span className="text-[#eddcd2] bg-gradient-to-b from-[#005f73] to-[#8d99ae] text-transparent bg-clip-text">

@@ -86,7 +86,7 @@ export default function Home() {
 
   return (
     <main className="relative bg-black flex justify-center items-center flex-col overflow-hidden mx-auto px-5 sm:px-10 w-[100dvw]">
-      <div className="w-full">
+      <div className="w-full flex flex-col md:gap-y-20 gap-y-10">
         <Navbar navItems={navItems} />
         <Hero />
         <About />

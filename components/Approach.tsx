@@ -7,7 +7,7 @@ import ShimmerBtn from "./ui/ShimmerBtn";
 
 export function Approach() {
   return (
-    <section className="w-full py-10">
+    <section className="w-full">
       <h1 className="heading">
         My{" "}
         <span className="text-[#eddcd2] bg-gradient-to-b from-[#005f73] to-[#8d99ae] text-transparent bg-clip-text">

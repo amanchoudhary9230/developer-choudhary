@@ -5,7 +5,7 @@ import { gridItems } from "../data";
 
 const About = () => {
   return (
-    <section id="about" className="py-10">
+    <section id="about">
       <AboutCard>
         {gridItems.map(
           ({

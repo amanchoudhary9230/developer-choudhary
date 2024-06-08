@@ -6,7 +6,7 @@ import { ExperienceCard } from "./ui/ExperienceCard";
 
 const Experience = () => {
   return (
-    <div id="experience" className="py-10">
+    <div id="experience">
       <h1 className="heading">
         My{" "}
         <span className="text-[#eddcd2] bg-gradient-to-b from-[#005f73] to-[#8d99ae] text-transparent bg-clip-text">

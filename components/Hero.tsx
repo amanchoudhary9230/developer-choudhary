@@ -1,13 +1,13 @@
 "use client";
 import React from "react";
 import { Spotlight } from "./ui/Spotlight";
-import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import ShimmerBtn from "./ui/ShimmerBtn";
 import { MdWifiCalling3 } from "react-icons/md";
+import { FlipWords } from "./ui/FlipWord";
 
 const Hero = () => {
   return (
-    <div className="pb-20 sm:pt-36 pt-20">
+    <div>
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-top-32 md:-left-20 h-[100dvh]"
@@ -30,12 +30,16 @@ const Hero = () => {
           <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
             Introduction
           </h2>
-          <TextGenerateEffect
-            className="text-center md:text-[35px] text-[30px]"
-            words={
-              "Hey, I'm Aman Choudhary, from the vibrant and diverse land of escape"
-            }
-          />
+          <h1 className="text-center md:text-[35px] text-[30px] my-4">
+            <span className="dark:text-white text-black font-bold">
+              Hey, I'm{" "}
+              <span className="text-[#eddcd2] bg-gradient-to-b from-[#005f73] to-[#8d99ae] text-transparent bg-clip-text">
+                Aman Choudhary
+              </span>
+              , from the vibrant and diverse land of{" "}
+              <FlipWords words={["India", "Rajasthan"]} duration={5000} />
+            </span>
+          </h1>
           <p className="text-center md:tracking-wider text-blue-100 mb-6 text-sm md:text-lg lg:text-xl">
             I specialize as a full stack website developer
           </p>

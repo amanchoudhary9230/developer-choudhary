@@ -28,7 +28,7 @@ export function Contact() {
   };
   return (
     <div
-      className="md:w-11/12 my-10 mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black"
+      className="md:w-11/12 mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black"
       id="contact"
     >
       <h2 className="font-bold text-xl text-neutral-800 dark:text-neutral-200">
