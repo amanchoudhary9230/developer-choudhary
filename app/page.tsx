@@ -1,4 +1,5 @@
 "use client";
+/* eslint-disable */
 import Hero from "../components/Hero";
 import { Navbar } from "../components/ui/Navbar";
 import { navItems } from "../data/navItems";

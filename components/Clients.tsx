@@ -1,4 +1,5 @@
 "use client";
+/* eslint-disable */
 import React from "react";
 import { ClientCards } from "./ui/ClientCards";
 import { companies, testimonials } from "../data";

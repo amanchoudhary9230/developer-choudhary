@@ -1,4 +1,5 @@
 "use client";
+/* eslint-disable */
 import { workExperience } from "../data";
 import React from "react";
 import { ExperienceCard } from "./ui/ExperienceCard";

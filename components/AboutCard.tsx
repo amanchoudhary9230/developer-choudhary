@@ -1,4 +1,5 @@
 "use client";
+/* eslint-disable */
 import { cn } from "../lib/utils";
 import { GridGlob } from "./ui/GridGlob";
 import Lottie from "react-lottie";

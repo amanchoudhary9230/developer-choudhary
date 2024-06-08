@@ -32,11 +32,11 @@ export function Contact() {
       id="contact"
     >
       <h2 className="font-bold text-xl text-neutral-800 dark:text-neutral-200">
-        Ready to take your digital presence to the next level? Let's get
+        Ready to take your digital presence to the next level? Let&apos;s get
         started!
       </h2>
       <p className="text-neutral-600 text-sm max-w-sm mt-2 dark:text-neutral-300">
-        Reach out to me today and let's discuss how I can help you achieve your
+        Reach out to me today and let&apos;s discuss how I can help you achieve your
         goals.
       </p>
 
