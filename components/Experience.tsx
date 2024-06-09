@@ -9,7 +9,7 @@ const Experience = () => {
     <div id="experience">
       <h1 className="heading">
         My{" "}
-        <span className="text-[#eddcd2] bg-gradient-to-b from-[#005f73] to-[#8d99ae] text-transparent bg-clip-text">
+        <span className="text-[#eddcd2] bg-gradient-to-b dark:from-[#006d77] from-[#219ebc] dark:to-[#4a4e69] to-[#3d405b] text-transparent bg-clip-text">
           Work Experience
         </span>
       </h1>
@@ -31,7 +31,7 @@ const Experience = () => {
                 <h1 className="text-start text-xl md:text-2xl font-bold">
                   {card.title}
                 </h1>
-                <p className="text-start text-white-100 mt-3 font-semibold">
+                <p className="text-start dark:text-white-100 text-black mt-3 font-semibold">
                   {card.desc}
                 </p>
               </div>

@@ -86,10 +86,6 @@ export const AboutCardItem = ({
         "row-span-1 overflow-hidden relative rounded-xl group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none dark:bg-black dark:border-white/[0.2] bg-white border border-transparent justify-between flex flex-col",
         className
       )}
-      style={{
-        background: "#000",
-        boxShadow: "rgba(50, 50, 50, 0.45) 0px 5px 15px",
-      }}
     >
       <div
         className={`${
@@ -128,7 +124,7 @@ export const AboutCardItem = ({
             "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 w-full flex flex-col px-5 p-4 lg:p-8"
           )}
         >
-          <div className="font-sans font-extralight text-[#c1c2d3] text-xs dark:text-neutral-300">
+          <div className="font-sans font-extralight text-[#42424a] text-xs dark:text-neutral-300">
             {description}
           </div>
           <div className="font-sans font-bold lg:text-2xl max-w-96 z-10">
@@ -136,7 +132,7 @@ export const AboutCardItem = ({
           </div>
           {id === 2 && <GridGlob />}
           {id === 3 && (
-            <div className="flex gap-1 md:gap-5 w-fit absolute top-4 right-2">
+            <div className="flex gap-1 md:gap-5 w-fit absolute right-2">
               <div className="flex flex-col gap-2 md:gap-3 overflow-auto">
                 {[
                   "React.js",
@@ -147,7 +143,7 @@ export const AboutCardItem = ({
                 ].map((item, idx) => (
                   <span
                     key={idx}
-                    className="py-1 lg:py-2 px-1 text-xs lg:text-base text-[#86898d] opacity-50 lg:opacity-100 text-center rounded-lg bg-[#42444651]"
+                    className="py-1 lg:py-2 px-1 text-xs lg:text-base dark:text-[#86898d] text-[#424445de] opacity-50 lg:opacity-100 text-center rounded-lg dark:bg-[#42444651] bg-[#b0b5bc51]"
                   >
                     {item}
                   </span>

@@ -5,7 +5,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="w-full text-sm mb-2 md:font-normal flex flex-wrap-reverse justify-between sm:gap-10 gap-4 items-center font-light text-stone-300">
+    <footer className="w-full text-sm mb-2 md:font-normal flex flex-wrap-reverse justify-between sm:gap-10 gap-4 items-center font-light dark:text-stone-300 text-black-100">
       <span>Copyright &copy; 2024 Developer Choudhary</span>
       <span className="flex justify-center gap-4 items-center">
         {socialMedia.map((profile) => (

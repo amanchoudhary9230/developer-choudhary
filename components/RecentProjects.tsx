@@ -9,7 +9,7 @@ const RecentProjects = () => {
     <div id="projects">
       <h1 className="heading">
         A small selection of{" "}
-        <span className="text-[#eddcd2] bg-gradient-to-b from-[#005f73] to-[#8d99ae] text-transparent bg-clip-text">
+        <span className="text-[#eddcd2] bg-gradient-to-b dark:from-[#006d77] from-[#219ebc] dark:to-[#4a4e69] to-[#3d405b] text-transparent bg-clip-text">
           Recent Projects
         </span>
       </h1>
@@ -19,7 +19,7 @@ const RecentProjects = () => {
             key={id}
             className="lg:min-h-[32.5rem] sm:h-[41rem] h-[32.5rem] flex items-center justify-center sm:w-[35.6rem] w-[80dvw]"
           >
-            <PinContainer title={link} href={link}>
+            <PinContainer title={link} href={link} className="bg-white dark:bg-black">
               <div className="flex items-center justify-center relative sm:w-[35.6rem] w-[80dvw] overflow-hidden h-[30dvh] sm:h-[40dvh] mb-10">
                 <div className="relative w-full h-full overflow-hidden lg:rounded-3xl">
                   <img src="/bg.png" alt="bg-img" />
@@ -30,10 +30,10 @@ const RecentProjects = () => {
                   className="z-10 absolute bottom-0 rotate-3 p-2"
                 />
               </div>
-              <h1 className="font-bold lg:text-xl sm:mb-2 mb-1 text-neutral-300 sm:text-base text-sm line-clamp-1">
+              <h1 className="font-bold lg:text-xl sm:mb-2 mb-1 dark:text-neutral-300 text-black sm:text-base text-sm line-clamp-1">
                 {title}
               </h1>
-              <p className="sm:text-sm lg:font-normal text-neutral-400 font-light text-xs line-clamp-2">
+              <p className="sm:text-sm lg:font-normal dark:text-neutral-400 text-neutral-700 font-light text-xs line-clamp-2">
                 {des}
               </p>
               <div className="flex justify-between items-center mt-7 mb-3">
@@ -42,7 +42,7 @@ const RecentProjects = () => {
                     <div
                       id={`${idx}`}
                       style={{ transform: `translateX(-${5 * idx * 2}px)` }}
-                      className="border border-white/[0.2] bg-neutral-950 rounded-full lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
+                      className="border border-white/[0.2] dark:bg-neutral-950 bg-neutral-600 rounded-full lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
                     >
                       <img
                         src={icon}

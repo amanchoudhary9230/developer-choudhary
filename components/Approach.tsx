@@ -10,7 +10,7 @@ export function Approach() {
     <section className="w-full">
       <h1 className="heading">
         My{" "}
-        <span className="text-[#eddcd2] bg-gradient-to-b from-[#005f73] to-[#8d99ae] text-transparent bg-clip-text">
+        <span className="text-[#eddcd2] bg-gradient-to-b dark:from-[#006d77] from-[#219ebc] dark:to-[#4a4e69] to-[#3d405b] text-transparent bg-clip-text">
           Approach
         </span>
       </h1>

@@ -88,7 +88,7 @@ export const ClientCards = ({
       >
         {items.map((item) => (
           <li
-            className="w-[90dvw] md:w-[50dvw] max-w-full relative rounded-2xl border border-b-0 flex-shrink-0 border-slate-800 p-5 md:p-16 bg-neutral-950"
+            className="w-[90dvw] md:w-[50dvw] max-w-full relative rounded-2xl border border-b-0 flex-shrink-0 border-slate-800 p-5 md:p-16 dark:bg-neutral-950 bg-neutral-700"
             key={item.name}
           >
             <blockquote>

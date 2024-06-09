@@ -6,7 +6,7 @@ export const gridItems = [
     description: "",
     className: "lg:col-span-2 md:col-span-6 md:row-span-4 py-4",
     imgClassName: "w-full h-full",
-    titleClassName: "justify-end",
+    titleClassName: "justify-start text-white",
     img: "/branding.jpg",
     spareImg: "",
   },
