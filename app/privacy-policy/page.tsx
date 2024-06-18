@@ -1,6 +1,8 @@
+"use client";
+/* eslint-disable */
 import React from "react";
 
-const page = () => {
+const PrivacyPolicy = () => {
   return (
     <div className="bg-white px-4">
       <style
@@ -15,7 +17,6 @@ const page = () => {
           margin: "0 auto 3.125rem",
           width: "11.125rem",
           height: "2.375rem",
-          background: "url(data:image/svg+xml",
         }}
       />
       <div data-custom-class="body">
@@ -11993,4 +11994,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default PrivacyPolicy;

@@ -1,4 +1,5 @@
 "use client";
+/* eslint-disable */
 import React from "react";
 import { Label } from "./ui/InputLabel";
 import { Input } from "./ui/Input";

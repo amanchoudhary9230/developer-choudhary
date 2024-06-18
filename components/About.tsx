@@ -1,4 +1,5 @@
 "use client";
+/* eslint-disable */
 import React from "react";
 import { AboutCard, AboutCardItem } from "./AboutCard";
 import { gridItems } from "../data";

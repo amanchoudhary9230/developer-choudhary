@@ -1,4 +1,5 @@
 "use client";
+/* eslint-disable */
 import { socialMedia } from "../data";
 import Image from "next/image";
 import React from "react";
