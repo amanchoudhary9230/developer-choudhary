@@ -3,7 +3,7 @@ import React from "react";
 type ShimmerBtnProps = {
   value?: string;
   icon?: React.ReactNode;
-  position?: string;
+  position?: string | null;
   handleClick?: () => void;
 };
 

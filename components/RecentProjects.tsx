@@ -16,10 +16,14 @@ const RecentProjects = () => {
       <div className="flex flex-wrap justify-center items-center gap-x-24 gap-y-8 mt-10 p-4">
         {projects.map(({ id, title, des, img, iconLists, link }) => (
           <div
-            key={id}
+            key={`${id}`}
             className="lg:min-h-[32.5rem] sm:h-[41rem] h-[32.5rem] flex items-center justify-center sm:w-[35.6rem] w-[80dvw]"
           >
-            <PinContainer title={link} href={link} className="bg-white dark:bg-black">
+            <PinContainer
+              title={link}
+              href={link}
+              className="bg-white dark:bg-black"
+            >
               <div className="flex items-center justify-center relative sm:w-[35.6rem] w-[80dvw] overflow-hidden h-[30dvh] sm:h-[40dvh] mb-10">
                 <div className="relative w-full h-full overflow-hidden lg:rounded-3xl">
                   <img src="/bg.png" alt="bg-img" />
@@ -40,7 +44,7 @@ const RecentProjects = () => {
                 <div className="flex items-center">
                   {iconLists.map((icon, idx) => (
                     <div
-                      id={`${idx}`}
+                      key={`${idx}`}
                       style={{ transform: `translateX(-${5 * idx * 2}px)` }}
                       className="border border-white/[0.2] dark:bg-neutral-950 bg-neutral-600 rounded-full lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
                     >
