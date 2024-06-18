@@ -67,6 +67,21 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "IndianMarket - A marketplace for Indian sellers and buyers",
+    des: "One-Stop Destination for Buyers and Manufacturers. Discover, Connect, and List with IndianMarket.",
+    img: "/indianmarket-project.png",
+    iconLists: [
+      "/nextui-icon.svg",
+      "/accernity-icon.webp",
+      "/nextjs-icon.svg",
+      "/ts.svg",
+      "/tail.svg",
+      "/nodejs-icon.svg",
+    ],
+    link: "https://indianmarket.vercel.app/",
+  },
+  {
+    id: 2,
     title:
       "StudyNexaa - An edtech platform designed for learning and teaching.",
     des: "An online platform where teachers teach and students learn. Join us for interactive and engaging study sessions.",
@@ -212,26 +227,26 @@ export const socialMedia = [
   {
     id: 1,
     img: "/instagram.svg",
-    src: "https://www.instagram.com/developer_choudhary/"
+    src: "https://www.instagram.com/developer_choudhary/",
   },
   {
     id: 2,
     img: "/facebook.svg",
-    src: "https://www.facebook.com/DeveloperChoudhary/"
+    src: "https://www.facebook.com/DeveloperChoudhary/",
   },
   {
     id: 3,
     img: "/git.svg",
-    src: "https://github.com/amanchoudhary9230"
+    src: "https://github.com/amanchoudhary9230",
   },
   {
     id: 4,
     img: "/twit.svg",
-    src: "https://twitter.com/developer_jaat"
+    src: "https://twitter.com/developer_jaat",
   },
   {
     id: 5,
     img: "/link.svg",
-    src: "https://www.linkedin.com/in/amandeep-choudhary-6aa234222/"
+    src: "https://www.linkedin.com/in/amandeep-choudhary-6aa234222/",
   },
 ];
