@@ -4,6 +4,9 @@ import { ThemeProvider } from "../context/theme-provider";
 export const metadata = {
   title: "Developer Choudhary",
   description: "A full stack website developer",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
