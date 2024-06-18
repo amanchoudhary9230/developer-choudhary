@@ -67,7 +67,7 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "IndianMarket - A marketplace for Indian sellers and buyers",
+    title: "IndianMarket - Currently working on it.",
     des: "One-Stop Destination for Buyers and Manufacturers. Discover, Connect, and List with IndianMarket.",
     img: "/indianmarket-project.png",
     iconLists: [
