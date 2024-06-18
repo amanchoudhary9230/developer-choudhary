@@ -1,6 +1,5 @@
 import "./globals.css";
 import { ThemeProvider } from "../context/theme-provider";
-import Head from "next/head";
 
 export const metadata = {
   title: "Developer Choudhary",
@@ -14,7 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <Head>
+      <head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="google-adsense-account" content="ca-pub-3643130730451957" />
@@ -23,7 +22,7 @@ export default function RootLayout({
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3643130730451957"
           crossOrigin="anonymous"
         ></script>
-      </Head>
+      </head>
       <body>
         <ThemeProvider
           attribute="class"
